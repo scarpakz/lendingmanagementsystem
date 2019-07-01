@@ -1,0 +1,230 @@
+body{
+    margin:0;
+}
+.container-sidear{
+    /* width: 280px; */
+    background-color:#ebf8fc;
+    position: fixed;
+    bottom:0;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content-sidebar{
+    width:100%;
+}
+.content-sidebar img{
+    width: 100%;
+}
+.content-sidebar .admin-text{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.content-sidebar ul{
+    padding-left:0;
+}
+.content-sidebar .admin-menu ul a{
+    text-decoration: none;
+    list-style: none;
+    color:rgb(17, 61, 70);
+}
+.admin-menu p{
+    padding:0;
+    margin:0;
+}
+.content-sidebar .admin-menu ul li{
+    padding:20px;
+    display: flex;
+}
+.content-sidebar .admin-menu ul li:hover{
+    background-color: rgb(176, 222, 255);
+}
+.active-menu{
+    background-color: rgb(176, 222, 255);
+}
+#logo_only{
+    display:none;
+    width: 70px;
+    margin-bottom:150px;
+}
+#icons{
+    padding-right:5px;
+}
+@media only screen and (max-width: 600px) {
+    #official_logo{
+        display:none;
+    }
+    #menu-p{
+        display:none;
+    }
+    .admin-text{
+        display:none;
+    }
+    .content-sidebar .fa{
+        font-size:30px;
+    }
+}
+
+
+/* DASHBOARD REPORTS */
+.reports-dashboard{
+    margin-left:200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#fffcf9;
+}
+.reports-content{
+    padding:15px;
+}
+#reports{
+    width:100%;
+    background-color: white;
+    margin: 15px 0;
+    box-shadow: 2px 4px 15px #222;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+.reports{
+    padding: 15px;
+    /* overflow-x: scroll; */
+}
+.history-btn{
+    padding:15px 20px;
+    font-size: 16px;
+    background-color: #4f9fe9;
+    border: solid 1px #222;
+    border-radius: 5px;
+    color:white;
+}
+
+/* USERS */
+.user-dashboard{
+    margin-left:200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#fffcf9;
+}
+.user-content{
+    padding:15px;
+}
+.user-table{
+    background-color: white;
+    box-shadow: 2px 4px 15px #222;
+    padding:15px;
+    margin-top: 20px;
+    overflow-x: scroll; 
+    border-radius: 10px;
+}
+.user-table table{
+    margin:20px 0;
+    width: 100%;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+.user-table .fa{
+    font-size:24px;
+}
+.user-table table thead{
+    background-color: #ebf8fc;
+    border-radius: 10px;
+}
+.user-table table tbody{
+    border-radius: 10px;
+}
+.user-table table thead th{
+    padding:15px;
+    border-radius: 10px;
+}
+.user-table table tbody td{
+    padding:10px;
+    border-radius: 10px;
+}
+.user-table input{
+    padding:10px;
+    font-size: 16px;
+}
+
+/* SETTINGS */
+.settings-container{
+    margin-left:200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#fffcf9;
+}
+.settings-content{
+    padding:15px;
+}
+.form-settings label{
+    font-weight: bold;
+    display:block;
+}
+.form-settings input{
+    margin-bottom:20px;
+    padding:10px;
+    font-size:16px;
+}
+.form-settings .settings-btn{
+    padding: 15px;
+    background-color: rgb(227, 105, 138);
+    font-size:16px;
+    color:white;
+    border:none;
+}
+
+/* BUTTONS */
+.btn-green{
+    padding:15px 20px;
+    font-size: 16px;
+    background-color: #14cf6b;
+    border: solid 1px #222;
+    border-radius: 5px;
+    color:rgb(241, 239, 239);
+    display:none;
+}
+.btn-blue{
+    display:none;
+    padding:15px 20px;
+    font-size: 16px;
+    background-color: #1565ce;
+    border: solid 1px #222;
+    border-radius: 5px;
+    color:rgb(241, 239, 239);
+}
+.close{
+    background-color:rgb(168, 28, 28);
+    color:white;
+    padding:15px 20px;
+    font-size:16px;
+    border: solid 1px white;
+    border-radius: 5px;
+    display:none;
+}
+.save-btn{
+    background-color:rgb(13, 182, 145);
+    color:white;
+    padding:15px 20px;
+    font-size:16px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+/* ADD USER */
+.form-input{
+    width: 50%;
+}
+.input-group{
+    display: block;
+    padding:5px 30px;
+}
+.input-group input{
+    width:100%;
+    padding: 10px;
+    font-size: 16px;
+}
+.client-form{
+    display:none;
+}
+#input-group-calendar{
+    display:none;
+}
+.collector-form{
+    display:none;
+}
